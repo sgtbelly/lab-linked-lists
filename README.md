@@ -1,5 +1,12 @@
 ![cf](http://i.imgur.com/7v5ASc8.png) Linked List Data Structure
-====
+================================================================
+
+## Submission Instructions
+* Follow the data structures submission instructions
+
+### Before you begin
+* You'll need to initialize the implementation folder as a new node module, install your dependencies, setup your npm script commands, and pull in your config files
+
 
 ## Requirements
 * implement a Singly Linked List (SLL) data structure
