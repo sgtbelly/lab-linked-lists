@@ -11,19 +11,43 @@ describe('Linked List', () => {
 
   it('append()', ()=> {
     let list = new LL();
-    let initialValue = 'First One';
+    let initialValue = 'Redskins';
     list.append(initialValue);
     expect(list.head.value).toEqual(initialValue);
 
-    let newValue = 'Soemthing Else';
+    let newValue = 'Sammy Baugh';
     list.append(newValue);
     expect(list.head.value).toEqual(initialValue);
 
-    let anotherOne = 'Another One';
+    let anotherOne = 'John Riggns';
     list.append(anotherOne);
 
     console.log(list);
 
   });
+
+  it('prepend()',()=> {
+    let list = new LL();
+    let initialValue = 'Redskins';
+    list.append(initialValue);
+    expect(list.head.value).toEqual(initialValue);
+
+    let newValue = 'Sammy Baugh';
+    list.append(newValue);
+    expect(list.head.value).toEqual(initialValue);
+
+    let anotherOne = 'John Riggns';
+    list.append(anotherOne);
+
+    let prependValue = 'HTTR';
+    list.prepend(prependValue);
+    expect(list.head.value).toEqual(prependValue);
+
+    console.log(list);
+
+  } );
+
+
+
 
 });
